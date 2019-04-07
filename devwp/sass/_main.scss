@@ -1,0 +1,160 @@
+* {
+    outline: 1px solid grey;
+}
+// -- General--
+// images
+img {
+    max-width:100%;
+}
+
+
+// Button
+.about-us_button {
+   color: #e09900;
+   border: 1px solid #e09900;
+   border-radius: 0px;
+   letter-spacing: 1px;
+   font-size: 100%x;
+   font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif !important;
+   text-transform: uppercase !important;
+   background-color: #ffffff;
+   padding: 10px 15px;
+   width: 120px;
+}
+
+
+// Section
+.section {
+   padding-top:40px;
+   position: relative;
+}
+
+
+.section-title_big{
+   text-align: center;
+}
+
+.section-title_small {
+  font-size: 12px;
+  font-weight: bold;
+  color: $primary_color;
+}
+
+.section-content{
+	margin: 0 auto;
+}
+
+.left{
+   text-align: left;
+}
+
+// Scroll to top
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+// tilecollection
+.tile-collection-img {
+	padding-top: 20px;
+	img{
+        display: block;
+        margin: 0 auto;
+	}
+}
+
+// Welcome message
+
+
+// Tile of your choice
+.tile-choice{
+    background: url(http://lorempixel.com/g/400/200/) fixed;
+    background-size: cover;
+    display: block;
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+    // width: 100%;
+    // height: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 90px;
+        .col-lg-6 {
+            background: #fff;
+            margin: 10px;
+        }
+    }
+
+// Featured Products
+.feature-bg {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-position: top center;
+    background-image: url(https://stonecrestmarble.com/wp-content/uploads/2018/08/cerdisa-carr.png);
+    background-repeat: no-repeat;
+}
+
+.feature-descriptons {
+    margin-top: -8%!important;
+    padding-top: 42px;
+    padding-right: 0px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    &_title{
+        text-align: center;
+        background: #FFF;
+    }
+    &-row {
+        justify-content: center;
+    }
+}
+
+// Footer
+footer#footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+    .site-info {
+
+    }
+}
+
+

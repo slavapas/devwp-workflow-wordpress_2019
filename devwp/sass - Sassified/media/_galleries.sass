@@ -1,0 +1,18 @@
+//Below is a list of the Sass rules that could not be converted to Stylus
+//map-get: line 14 in your Sass file
+
+
+.gallery
+  margin-bottom: 1.5em
+.gallery-item
+  display: inline-block
+  text-align: center
+  vertical-align: top
+  width: 100%
+  // Loops to enumerate the classes for gallery columns.
+  for $i in (2)..(9)
+    .gallery-columns-{$i} &
+      //Function map-get is not supported in Stylus
+      //max-width: map-get($columns, $i)
+.gallery-caption
+  display: block
